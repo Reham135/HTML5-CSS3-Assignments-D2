@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title> local storage </title>
+    <style>
+        #formId {
+            background-color: antiquewhite;
+            width: 50%;
+            height: 200px;
+            text-align: center;
+            border: 3px black solid;
+            margin-top: 230px;
+            margin-left: 350px;
+            margin-right: 350px
+        }
+
+        #userId {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="formId">
+        <label> username: </label>
+        <input type="text" name="user" placeholder="enter your name" pattern="[a-zA-Z0-9\s]{0,16}" id="userId"
+            required>
+        <pre></pre>
+        <label> email: </label>
+        <input type="email"  placeholder=example@example.any pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{3,4}$"
+           id="emailId" required>
+        <pre></pre>
+        <input type="submit" value=" Change email address " onclick="saveData()">
+        <input type="checkbox" id="checkId">
+    </form>
+
+
+
+
+
+<script src="Script1.js"></script>
+</body>
+
+</html>

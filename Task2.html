@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Traffic Sign </title>
+    <style>
+        #greenId {
+            border-radius: 50%;
+        }
+
+        #yellowId {
+            border-radius: 50%;
+        }
+
+        #redId {
+            border-radius: 50%;
+        }
+
+        .greenClass:hover {
+            box-shadow: 0px 0px 70px 8px green;
+            transform: scale(1);
+            transition-delay: 1s;
+        }
+
+        .yellowClass:hover {
+            box-shadow: 0px 0px 70px 8px yellow;
+            transform: scale(1);
+            transition-delay: 1s;
+        }
+
+        .redClass:hover {
+            box-shadow: 0px 0px 70px 8px red;
+            transform: scale(1);
+            transition-delay: 1s;
+        }
+
+        .blackDiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;                /* move elements at the center of the container width */
+            
+        }
+        .parentDiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parentDiv">
+        <div class="blackDiv" style="background-color: black; width: 100px;height: 350px;">
+            <div id="greenId" class="greenClass" style="background-color: green; width: 70px; height: 70px;"> </div>
+            <div id="yellowId" class="yellowClass" style="background-color: yellow; width: 70px; height: 70px;"></div>
+            <div id="redId" class="redClass" style="background-color: red; width: 70px; height: 70px;"> </div>
+        </div>
+        <div class="stickDiv" style="background-color: black; width: 25px;height: 180px;"></div>
+    </div>
+</body>
+
+</html>

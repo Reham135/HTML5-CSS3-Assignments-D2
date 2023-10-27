@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.parent {
+    display: flex;
+    width: 80%;
+    background-color: rgb(175, 175, 175);
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+.part {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin: 2%;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.partIcon {
+    color: rgb(140, 35, 35);
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: inset 0px 0px 0px 4px rgb(152, 142, 142);
+}
+.partIcon:hover {
+    background-color: rgb(149, 26, 26);
+    box-shadow: inset 0px 0px 0px 4px rgb(146, 33, 33);
+    border-color: rgb(148, 48, 48);
+    color: #FFF;
+}
+.head{
+    color: rgb(124, 37, 37);
+}
+.paragraph {
+    margin: 10px;
+}
